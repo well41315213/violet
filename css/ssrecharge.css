@@ -1,0 +1,32 @@
+.recharge_cont{background: #FFFFFF;}
+.recharge_cont .cashh3{height: 44px;line-height: 44px;background: #f8f8f8;border-bottom: 1px solid #cccccc;text-indent: 10px;}
+
+.recharge_cont .cashh3 .a{font-size: 16px;font-weight: bolder;}
+.recharge_cont .cashh3 .a1{margin-left: 20px; color: red;}
+
+
+
+.recharge_div table input{width: 318px;height: 32px;text-indent: 10px;}
+.recharge_div table{margin-left: 20%;border-collapse: separate;  border-spacing:   24px; }
+.recharge_div table tr td:nth-child(1){text-align: right;}
+.recharge_div  .div1{width: 320px;height: 78px;border: 1px solid #cccccc;}
+.recharge_div  .div1 .p1{width: 62px;height: 78px;background: url("../images/jdwallet.png")no-repeat center center;float: left;}
+
+.recharge_div  .div1 .p2{width: 64px;height: 78px;background: url("../images/jddog.png")no-repeat center center;float: left;}
+.recharge_div  .div2 .p2{width: 64px;height: 78px;background: url("../images/jiansheimg.png")no-repeat center center;float: left;}
+
+.recharge_div  .div1 .p3{width: 120px;height: 80px;
+    margin-left:20px;float: left;padding: 30px 0;box-sizing: border-box;
+}.recharge_div  .div2 .p3{padding: 20px 0;}
+
+.recharge_div  .div1  .p111{background: url("../images/jianshebank.png")no-repeat center center;}
+
+.recharge_div table tr td.cash span{background: url("../images/false.png")no-repeat; padding-left: 25px;}
+
+.recharge_div table tr td.phone input{width: 209px;border: none;}
+.recharge_div table tr td.phone a{display: inline-block;background: #00b7ee;height: 36px;line-height: 36px;width:110px;text-align: center;color: #FFFFFF; }
+
+.recharge_div h3{margin-top: 40px;}
+.recharge_div h3 a{display: block;width: 120px;height: 38px;background: orangered;margin-left:45%;text-align: center;line-height: 38px;color: #FFFFFF;}
+
+

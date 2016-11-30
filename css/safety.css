@@ -1,0 +1,21 @@
+.safety_cont{margin-top: 20px;}
+.safety_cont .safehead{height: 44px;line-height: 44px;background: #f8f8f8;border-bottom: 1px solid #cccccc; }
+.safety_cont .safehead a{font-size: 16px;font-weight: bolder;}
+.safety_cont .safehead .safewo{ margin-left: 20px; color: red;}
+
+
+.safe_container  .divp{width: 460px;margin-left: 20%;margin-top: 20px;}
+.safe_container p{line-height: 62px;text-align: right;}
+.safe_container p input{width: 320px;height: 32px;text-indent: 10px;}
+
+.safe_container p.yzm input{width: 240px;height: 32px; border: none;}
+
+.safe_container p.yzm .yzmaa{color: black;background: red;
+    display: inline-block;height:35px;
+    color: #FFFFFF;
+    line-height: 35px;  padding: 0 5px;}
+
+.safe_container h3{margin-top: 60px;}
+.safe_container h3 a{display: block;width: 120px;height: 38px;background: orangered;margin-left:50%;text-align: center;line-height: 38px;color: #FFFFFF;}
+
+

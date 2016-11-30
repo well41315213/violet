@@ -1,0 +1,26 @@
+.cash_container{background: #FFFFFF;}
+.cashh3{height: 44px;line-height: 44px;background: #f8f8f8;border-bottom: 1px solid #cccccc;text-indent: 10px;}
+
+.cashh3 .a{font-size: 16px;font-weight: bolder;}
+.cashh3 .a1{margin-left: 20px; color: red;}
+
+.cash_pcont{width: 420px;margin-left: 24%;}
+
+
+.cash_pcont table{width: 520px; border-collapse: separate;  border-spacing:   24px; }
+
+.cash_pcont table tr td:nth-child(1){text-align: right;}
+.cash_pcont table input{width: 318px;height: 32px;text-indent: 10px;}
+
+.cash_pcont table tr .tdline{width: 238px;height: 78px; border: 2px solid #cccccc; border-radius: 5px; background: #f4f4f4;}
+
+.cash_pcont table tr td .p1{float: left;width: 62px;height: 76px;
+    background: url("../images/shenzhenbank.png")no-repeat center center;}
+.cash_pcont table tr td .p2{margin-top: 20px; width: 140px;float: left;}
+.cash_pcont table tr td .p3{width: 20px;float:right;height: 20px;
+    background: url("../images/false.png") ;}
+.cash_pcont table tr {margin-top: 20px;}
+.cash_pcont table tr td a {color: blue;}
+
+.cash_pcont h3{margin-top: 40px;}
+.cash_pcont h3 a{display: block;width: 120px;height: 38px;background: orangered;margin-left:50%;text-align: center;line-height: 38px;color: #FFFFFF;}

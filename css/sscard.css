@@ -1,0 +1,23 @@
+.card_cont{background: #FFFFFF;}
+.card_cont .cashh3{height: 44px;line-height: 44px;background: #f8f8f8;border-bottom: 1px solid #cccccc;text-indent: 10px;}
+
+.card_cont .cashh3 .a{font-size: 16px;font-weight: bolder;}
+.card_cont .cashh3 .a1{margin-left: 20px; color: red;}
+
+.card_img .p_img{width:592px;height: 79px;background: url("../images/show.png")no-repeat;margin: 30px auto;}
+.card_img{height: 110px;border-bottom: 1px solid #cccccc;}
+
+.card_ontainer table{ border-collapse: separate;  border-spacing:   24px;margin-left: 20%; }
+
+.card_ontainer table tr td:nth-child(1){text-align: right;}
+.card_ontainer table input{width: 318px;height: 32px;text-indent: 10px;}
+.card_ontainer table tr select{height: 32px;}
+.card_ontainer table tr select#qq{width: 318px;}
+.card_ontainer table tr select#ww{width: 130px;}
+.card_ontainer table tr select#xx{width: 180px;}
+
+
+
+.card_ontainer h3{margin-top: 40px;}
+.card_ontainer h3 a{display: block;width: 120px;height: 38px;background: orangered;margin-left:42%;text-align: center;line-height: 38px;color: #FFFFFF;}
+

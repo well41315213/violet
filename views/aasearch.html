@@ -1,0 +1,39 @@
+<div class="search_cont">
+    <h3>交易查询</h3>
+    <div class="threeinput">
+        订单号 <input type="text"/> 名称 <input type="text"/> 状态 <input type="text"/>  <a href="">查询</a>
+    </div>
+
+    <div class="selltable">
+        <div> <a href="#aasearch" ></a>近期交易记录  <a href="#aasearch" class="searchwo">查询更多</a></div>
+        <table>
+            <tr>
+                <th>交易时间</th>
+                <th>名称</th>
+                <th>订单号</th>
+                <th>交易金额</th>
+                <th>状态</th>
+            </tr>
+            <tr ng-repeat="sel in Selects">
+                <td>{{sel.time}}</td>
+                <td>{{sel.name}}</td>
+                <td>{{sel.num}}</td>
+                <td>{{sel.money.add | add}}{{sel.money.num}}</td>
+                <td>{{sel.success | stutas}}</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>

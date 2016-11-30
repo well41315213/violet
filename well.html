@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="MainCtrl">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{tittle}}</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/wallet.css"/>
+    <link rel="stylesheet" href="css/safety.css"/>
+    <link rel="stylesheet" href="css/search.css"/>
+    <link rel="stylesheet" href="css/sscash.css"/>
+    <link rel="stylesheet" href="css/sscard.css"/>
+    <link rel="stylesheet" href="css/ssrecharge.css"/>
+
+    <script src="js/libs/jquery.js"></script>
+    <script src="js/libs/angular.min.js"></script>
+    <script src="js/libs/angular-route.min.js"></script>
+    <script src="js/libs/angular-resource.min.js"></script>
+    <script src="js/libs/angular-animate.min.js"></script>
+
+    <script src="js/app/app.js"></script>
+    <script src="js/app/controller/MainCtrl.js"></script>
+
+
+    <script src="js/app/Service/Routeservice.js"></script>
+    <script src="js/app/Service/HttpService.js"></script>
+    <script src="js/app/Service/addService.js"></script>
+    <script src="js/app/Route/Route.js"></script>
+
+    <script src="js/app/controller/aawallet.js"></script>
+    <script src="js/app/controller/aasearch.js"></script>
+    <script src="js/app/controller/aasafety.js"></script>
+
+    <script src="js/app/controller/ssbill.js"></script>
+    <script src="js/app/controller/sscard.js"></script>
+    <script src="js/app/controller/sscash.js"></script>
+    <script src="js/app/controller/ssqqcoin.js"></script>
+    <script src="js/app/controller/ssrecharge.js"></script>
+    <script src="js/app/controller/ssskycoin.js"></script>
+
+
+
+
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="images/tittle.png"/>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#aawallet">我的钱包</a></li>
+                <li><a href="#aasearch">交易查询</a></li>
+                <li><a href="#aasafety">安全中心</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="content" ng-view></div>
+
+
+
+</body>
+</html>
